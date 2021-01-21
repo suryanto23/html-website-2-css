@@ -1,0 +1,260 @@
+@font-face{
+    font-family: "offerings";
+    src: url('fonts/Offerings/Offerings\ Regular.otf') format('truetype');
+}
+
+
+
+body{
+    background-color: #f1f1f1;
+    margin: 0;
+    padding:0;
+}
+
+.container{
+    padding-top: 90px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-align: right;
+    width: 100%;
+    background-color: rgb(116, 116, 116);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /* display: flex;
+    justify-content: flex-end; */
+    /* margin-bottom: 45px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 25px;
+}
+
+nav a:hover{
+    color: tomato;
+}
+
+h3{
+    color: #818181;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+
+footer{
+    background-color: rgb(151, 151, 151);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+footer p{
+    opacity: 0.4;
+}
+
+footer a{
+    color:white;
+}
+
+footer a:hover{
+    color: teal;
+}
+
+/* Styling Home begin */
+.content{
+    height:394px;
+    margin-top: 270px;
+    padding-left: 150px;
+}
+
+.content h3{
+    color: #818181;
+    font-family: 'offerings','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    margin: 0px;
+}
+
+
+
+.garis{
+    
+    border-style: none none solid none;
+    width: 900px;
+}
+
+.content p{
+    margin: 0;
+    margin-bottom: 10px;
+    color: #818181;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sosmed{
+    margin-top: -7px;
+}
+
+.sosmed a{
+    margin-right: 8px;
+    opacity: 0.5;
+}
+
+.sosmed img{
+    width: 30px;
+    
+}
+
+.sosmed a:hover{
+    opacity: 1;
+}
+/* Styling Home end */
+
+/* Styling About begin */
+.profile{
+    padding-top: 45px;
+    width: 120px;
+    margin-right: 45px;
+    border-radius: 100px;    
+}
+
+.profile img{
+    width: 100%;
+    border-radius: 100px;
+}
+
+
+.about{
+    width: 600px;
+    margin-top: 50px;
+    padding-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.about h3{
+    padding-top: 45px;
+    margin-bottom: 60px;
+}
+
+.about p{
+    color: #818181;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+.about h4{
+    font-size: 20px;
+}
+
+.about h4, ul{
+    color: #818181;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.utility{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.skill, .interest{
+    margin-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+    
+   
+}
+
+.skill ul, .interest ul{
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 120px;
+}
+
+.skill ul p, .interest ul p{
+    margin: 5px;
+}
+
+/* Styling About end */
+
+/* Styling Works begin */
+.works{
+    padding-left: 100px;
+    color: #818181;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+
+}
+
+.galeri img{
+    width: 350px;
+}
+
+.card{
+    border: 3px solid rgb(206, 206, 206);
+    display: inline-block;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    height: 320px;
+    }
+
+.galeri{
+    width: 1300px;
+    padding-left: 100px;
+}
+
+.card .title{
+    text-align: center;
+}
+/* Styling Works end */
+
+/* Styling Hobby begin */
+.hobbybox{
+    
+    padding-left: 100px;
+    width: 1300px;
+    height: 486px;
+    margin-top: 100px;
+}
+
+.hobby{
+    padding-left: 100px;
+    color: #818181;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+
+
+.desc{
+   
+    width: 40%;
+    color: #818181;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.coffee, .music{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.pic{
+    width: 40%;
+    text-align: center;
+}
